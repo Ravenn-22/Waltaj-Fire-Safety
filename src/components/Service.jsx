@@ -5,31 +5,31 @@ const services = [
   {
     name: "Fire Risk Assessment",
     desc: "Detailed on-site fire safety audits that uncover risks, document hazards, and provide a complete compliance report in line with Nigerian fire codes.",
-    image: "src/assets/jon-tyson-kR4K8nJ9JRc-unsplash.jpg",
+    image: "/images/jon-tyson-kR4K8nJ9JRc-unsplash.jpg",
     cta: "Get a Quote",
   },
   {
     name: "Alarm System Installation",
     desc: "Supply and installation of intelligent fire detection and alarm systems — addressable, conventional, or wireless for any building type.",
-    image: "src/assets/salah-regouane-OO2bLxR7ri0-unsplash.jpg",
+    image: "/images/salah-regouane-OO2bLxR7ri0-unsplash.jpg",
     cta: "Get a Quote",
   },
   {
     name: "Suppression Systems",
     desc: "Design and installation of sprinkler systems, gaseous suppression, and foam systems tailored to your occupancy and risk profile.",
-    image: "src/assets/IMG_6035.png",
+    image: "/images/IMG_6035.png",
     cta: "Get a Quote",
   },
   {
     name: "Extinguisher Supply & Servicing",
     desc: " From homes to high-rises, we deliver the right extinguisher for the risk  - C02, foam, dry powder, or wet chemical- straigh to your door no delay ",
-    image: "src/assets/dynamic-wang-efMMsZP8Qqw-unsplash.jpg",
+    image: "/images/dynamic-wang-efMMsZP8Qqw-unsplash.jpg",
     cta: "Get a Quote",
   },
   {
     name: "Compliance Consulting",
     desc: "We guide you through Lagos State Fire Service regulations, NFPA standards, and building code requirements to achieve full certification.",
-    image: "src/assets/mitchell-luo-wXs0mncHyfI-unsplash.jpg",
+    image: "/images/mitchell-luo-wXs0mncHyfI-unsplash.jpg",
     cta: "Get a Quote",
   },
 ];

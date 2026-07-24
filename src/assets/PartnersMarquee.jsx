@@ -3,10 +3,10 @@ import React from 'react';
 
 
 const partners = [
-  "src/assets/first-bank-nigeria-seeklogo.png",
-  "src/assets/germany-embassy-eagle-seeklogo.png",
-  "src/assets/gsk-seeklogo.png",
-  "src/assets/ean-logo-full.png",
+  "/images/first-bank-nigeria-seeklogo.png",
+  "/images/germany-embassy-eagle-seeklogo.png",
+  "/images/gsk-seeklogo.png",
+  "/images/ean-logo-full.png",
   "http://www.iita.org/wp-content/themes/iita/images/IITA-TAA-smallnew.png",
   "http://www.towerplc.com/images/logo.jpg"
 ];

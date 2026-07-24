@@ -12,7 +12,7 @@ export default function StatsBento() {
         {/* top left — image with stat overlay */}
         <div
           className="bento-card bento-card-img"
-          style={{ backgroundImage: "url('src/assets/tanya-paquet-wjHdeYmI-XU-unsplash.jpg')" }}
+          style={{ backgroundImage: "url('/images/tanya-paquet-wjHdeYmI-XU-unsplash.jpg')" }}
         >
           <div className="bento-card-body">
             <span className="bento-tag">Track Record</span>
@@ -26,7 +26,7 @@ export default function StatsBento() {
         {/* top right — image with stat overlay */}
         <div
           className="bento-card bento-card-img"
-          style={{ backgroundImage: "url('src/assets/mitchell-luo-wXs0mncHyfI-unsplash.jpg')" }}
+          style={{ backgroundImage: "url('/images/mitchell-luo-wXs0mncHyfI-unsplash.jpg')" }}
         >
           <div className="bento-card-body">
             <span className="bento-tag">Coverage</span>
@@ -51,7 +51,7 @@ export default function StatsBento() {
         {/* bottom right — image with overlay */}
         <div
           className="bento-card bento-card-img bento-card-wide"
-          style={{ backgroundImage: "url('src/assets/adeel-zaheer-4l6yPIuK9oc-unsplash.jpg')" }}
+          style={{ backgroundImage: "url('/images/adeel-zaheer-4l6yPIuK9oc-unsplash.jpg')" }}
         >
           <div className="bento-card-body">
             <span className="bento-tag">Safety Record</span>

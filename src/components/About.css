@@ -303,7 +303,7 @@
 .why-choos-bg {
   position: absolute;
   inset: 0;
-  background-image: url('src/assets/chandler-cruttenden-bPUvUVxPzGE-unsplash.jpg');
+  background-image: url('/images/chandler-cruttenden-bPUvUVxPzGE-unsplash.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

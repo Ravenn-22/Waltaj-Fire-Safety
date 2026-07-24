@@ -40,7 +40,7 @@ export default function Team() {
       {/* founder */}
       <div className="team-founder">
         <div className="team-founder-image">
-         <img src="src/assets/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="" />
+         <img src="/images/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="" />
           <div className="team-founder-image-placeholder">
             {founder.initials}
           </div>
@@ -64,7 +64,7 @@ export default function Team() {
         {engineers.map((eng) => (
           <div className="team-engineer-card" key={eng.name}>
             <div className="team-engineer-image">
-             <img src="src/assets/chandler-cruttenden-bPUvUVxPzGE-unsplash.jpg" alt="" />
+             <img src="/images/chandler-cruttenden-bPUvUVxPzGE-unsplash.jpg" alt="" />
               <div className="team-engineer-image-placeholder">
                 {eng.initials}
               </div>

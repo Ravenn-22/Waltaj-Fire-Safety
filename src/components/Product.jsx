@@ -4,37 +4,37 @@ const products = [
   {
     name: "Fire Extinguishers",
     desc: "Portable and wheeled extinguishers for all classes of fire — ABC dry powder, CO2, foam, and wet chemical types available.",
-    icon: <img src="src/assets/ploegerson-K_MhX-YKuCg-unsplash.jpg" alt="" />,
+    icon: <img src="/images/ploegerson-K_MhX-YKuCg-unsplash.jpg" alt="" />,
     tag: "Supply & Service",
   },
   {
     name: "FM-200 Systems",
     desc: "Clean agent gaseous suppression systems ideal for server rooms, control rooms, and areas where water damage is unacceptable.",
-    icon: <img src="src/assets/albert-stoynov-WMyhL1ya_NM-unsplash.jpg" alt="" srcset="" />,
+    icon: <img src="/images/albert-stoynov-WMyhL1ya_NM-unsplash.jpg" alt="" srcset="" />,
     tag: "Supply & Install",
   },
   {
     name: "Alarm Panels",
     desc: "Addressable and conventional fire alarm control panels for buildings of all sizes — fully programmable and expandable.",
-    icon: <img src="src/assets/chris-porter--At4vx7KbAI-unsplash.jpg" alt="" srcset="" />,
+    icon: <img src="/images/chris-porter--At4vx7KbAI-unsplash.jpg" alt="" srcset="" />,
     tag: "Supply & Install",
   },
   {
     name: "Smoke Detectors",
     desc: "Optical, ionisation, and multi-sensor detectors for early fire detection in residential, commercial, and industrial spaces.",
-    icon: <img src="src/assets/ymzdcs-mhu7AvGCNLM-unsplash.jpg" alt="" srcset="" />,
+    icon: <img src="/images/ymzdcs-mhu7AvGCNLM-unsplash.jpg" alt="" srcset="" />,
     tag: "Supply & Install",
   },
   {
     name: "Hose Reels",
     desc: "Fixed and swing-type hose reel systems with full installation and commissioning service for commercial buildings.",
-    icon: <img src="src/assets/david-trinks-Bi6t4Gp1cDA-unsplash.jpg" alt="" srcset="" />,
+    icon: <img src="/images/david-trinks-Bi6t4Gp1cDA-unsplash.jpg" alt="" srcset="" />,
     tag: "Supply & Install",
   },
   {
     name: "Sprinkler Heads",
     desc: "Pendant, upright, and concealed sprinkler heads for automatic suppression systems — all pressure-tested and certified.",
-    icon: <img src="src/assets/aleksey-shkitenkov-YWRDfkedXvo-unsplash.jpg" alt="" srcset="" />,
+    icon: <img src="/images/aleksey-shkitenkov-YWRDfkedXvo-unsplash.jpg" alt="" srcset="" />,
     tag: "Supply & Install",
   },
 ];
