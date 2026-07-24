@@ -4,9 +4,17 @@ import React from 'react';
 
 const partners = [
   "/images/first-bank-nigeria-seeklogo.png",
-  "/images/germany-embassy-eagle-seeklogo.png",
+  "/images/german.jpeg",
   "/images/gsk-seeklogo.png",
   "/images/ean-logo-full.png",
+  "/images/AAVA.jpeg",
+  "/images/Afrab.jpeg",
+  "/images/blackwood.jpeg",
+  "/images/Lifegate.jpeg",
+  "/images/pernod.jpeg",
+  "/images/Super-eng.jpeg",
+  "/images/Sylma.jpeg",
+  "/images/Caring.jpeg",
   "http://www.iita.org/wp-content/themes/iita/images/IITA-TAA-smallnew.png",
   "http://www.towerplc.com/images/logo.jpg"
 ];

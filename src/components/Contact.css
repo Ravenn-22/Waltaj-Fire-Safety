@@ -67,7 +67,7 @@
 }
 
 .contact-info-card:hover {
-  border-color: rgba(240, 3, 3, 0.25);
+  border-color: rgba(3, 82, 240, 0.25);
 }
 
 .contact-info-card-top {
@@ -134,7 +134,7 @@
 }
 
 .contact-info-value a:hover {
-  color: #f00303e4;
+  color: #5e75f6e4;
 }
 
 /* location card */
@@ -147,7 +147,7 @@
 }
 
 .contact-location-card:hover {
-  border-color: rgba(240, 3, 3, 0.25);
+  border-color: rgba(3, 125, 240, 0.25);
 }
 
 .contact-location-top {
@@ -352,7 +352,7 @@
 .contact-form-group input:focus,
 .contact-form-group select:focus,
 .contact-form-group textarea:focus {
-  border-color: rgba(240, 3, 3, 0.45);
+  border-color: rgba(3, 46, 240, 0.45);
   background: rgba(240, 3, 3, 0.03);
 }
 
@@ -386,7 +386,7 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #fff;
-  background: #f00303e4;
+  background: #5e75f6e4;
   border: none;
   border-radius: 10px;
   padding: 1rem 2rem;
@@ -397,10 +397,44 @@
 }
 
 .contact-form-submit:hover {
-  background: #c80202;
+  background: #3650e4e4;
   transform: translateY(-2px);
 }
+.contact-form-error {
+  font-size: 13px;
+  color: #E85D04;
+  margin: 0;
+}
 
+.contact-form-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.contact-success {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact-success-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.contact-success h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #ffffff;
+  margin: 0 0 12px;
+}
+
+.contact-success p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #C8C0B8;
+  margin: 0;
+}
 /* ── responsive ── */
 
 /* Tablet: two columns still work, just narrower and tighter padding */

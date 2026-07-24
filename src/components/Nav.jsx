@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import './Nav.css'
+import "./Nav.css";
 
 const servicesMenu = [
   { label: "Fire Risk Assessment", icon: "🔍", href: "#Services" },
@@ -36,7 +36,7 @@ function DropdownMenu({ label, items }) {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 function Nav() {
@@ -44,22 +44,31 @@ function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 40)
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    const handleScroll = () => setScrolled(window.scrollY > 40);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
       <nav className={`nav-container ${scrolled ? "scrolled" : ""}`}>
         <div className="nav-brand" id="nav-brand">
-         <a href="#">Waltaj</a>  <br />
-          <span>Safety Service Limited</span>
+          <a href="#">
+            {" "}
+            <img
+              src="/images/walt.jpeg"
+              alt="brand-img"
+              className="brand-img"
+            />
+          </a>{" "}
+          
+          {/* <span>Nigeria Limited</span> */}
         </div>
 
         <ul className="nav-links">
-          
-          <li><a href="#About">About Us</a></li>
+          <li>
+            <a href="#About">About Us</a>
+          </li>
           <li>
             <DropdownMenu label="Services" items={servicesMenu} />
           </li>
@@ -85,10 +94,18 @@ function Nav() {
 
       {/* mobile drawer */}
       <ul className={`nav-mobile ${menuOpen ? "open" : ""}`}>
-        <li><a href="#" onClick={() => setMenuOpen(false)}>Home</a></li>
-        <li><a href="#About" onClick={() => setMenuOpen(false)}>About Us</a></li>
+        <li>
+          <a href="#" onClick={() => setMenuOpen(false)}>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#About" onClick={() => setMenuOpen(false)}>
+            About Us
+          </a>
+        </li>
         <li className="mobile-section-label">Services</li>
-        {servicesMenu.map(item => (
+        {servicesMenu.map((item) => (
           <li key={item.label}>
             <a href={item.href} onClick={() => setMenuOpen(false)}>
               {item.icon} {item.label}
@@ -96,7 +113,7 @@ function Nav() {
           </li>
         ))}
         <li className="mobile-section-label">Products</li>
-        {productsMenu.map(item => (
+        {productsMenu.map((item) => (
           <li key={item.label}>
             <a href={item.href} onClick={() => setMenuOpen(false)}>
               {item.icon} {item.label}
@@ -104,13 +121,17 @@ function Nav() {
           </li>
         ))}
         <li>
-          <a href="#Contact" className="mobile-cta" onClick={() => setMenuOpen(false)}>
+          <a
+            href="#Contact"
+            className="mobile-cta"
+            onClick={() => setMenuOpen(false)}
+          >
             Contact Us
           </a>
         </li>
       </ul>
     </>
-  )
+  );
 }
 
 export default Nav;

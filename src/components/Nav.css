@@ -15,6 +15,7 @@
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  
 }
 
 .scrolled {
@@ -24,9 +25,14 @@
   border-bottom: 1px solid rgba(201, 168, 76, 0.15);
   transition: background 0.4s, border-bottom 0.4s;
 }
+.brand-img{
+   width: 120px;
+    height: 70px;
+    object-fit: contain; 
+    filter: invert(0);
+}
 
-
-#nav-brand, a {
+/* #nav-brand, a {
   font-family: "Agu display";
   font-weight: 900;
   font-size: 22px;
@@ -34,15 +40,17 @@
   color: #d5d9df;
   text-transform: uppercase;
   flex-shrink: 0;
-}
-#nav-brand span {
+
+} */
+/* #nav-brand span {
   display: block;
   font-weight: 300;
   font-style: italic;
   font-family: "Lobster two";
   text-transform: capitalize;
   font-size: 13px;
-}
+  
+} */
 
 .nav-links {
   display: flex;
@@ -93,6 +101,10 @@
   font-family: 'lobster two', sans-serif;
   font-size: 15px;
   text-transform: uppercase;
+}
+#conts a:hover{
+  cursor: pointer;
+  color: #6a94e2;
 }
 
 /* ── Hamburger ── */

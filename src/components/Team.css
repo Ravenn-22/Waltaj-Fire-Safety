@@ -21,13 +21,6 @@
   margin-bottom: .5rem;
 }
 
-.team-divider {
-  width: 48px;
-  height: 3px;
-  background: #f00303e4;
-  margin-bottom: 1.5rem;
-}
-
 /* ── Founder card ── */
 .team-founder {
   display: grid;
@@ -170,7 +163,6 @@
   left: 0;
   right: 0;
   height: 3px;
-  /* background: #f00303e4; */
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.4s ease;
@@ -181,7 +173,7 @@
 }
 
 .team-engineer-image {
-  height: 280px;
+  height: 380px;
   overflow: hidden;
   background: #d0c8c8;
   position: relative;

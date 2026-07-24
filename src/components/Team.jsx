@@ -14,18 +14,21 @@ const engineers = [
     role: "Lead Fire Systems Engineer",
     badges: ["NFPA Certified", "Suppression Systems"],
     initials: "TO",
+    image: "/images/jay-walt.jpeg",
   },
   {
-    name: "Engr. xoxo Adeniyi",
+    name: "Engr. Adedeji Adeniyi",
     role: "Alarm & Detection Specialist",
     badges: ["Addressable Systems", "Lagos State Licensed"],
-    initials: "xa",
+    initials: "AA",
+    image: "",
   },
   {
     name: "Engr. Tijani Temitayo",
     role: "Compliance & Risk Consultant",
     badges: ["CFPS Certified", "Risk Assessment"],
     initials: "TT",
+    image: "",
   },
 ];
 
@@ -64,7 +67,8 @@ export default function Team() {
         {engineers.map((eng) => (
           <div className="team-engineer-card" key={eng.name}>
             <div className="team-engineer-image">
-             <img src="/images/chandler-cruttenden-bPUvUVxPzGE-unsplash.jpg" alt="" />
+           
+             <img src={eng.image} alt={eng.name} />
               <div className="team-engineer-image-placeholder">
                 {eng.initials}
               </div>
