@@ -1,0 +1,475 @@
+.about-container {
+  /* background: #080000; */
+  padding: 3.5rem 5rem;
+}
+
+.about-grid {
+  display: block;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.about-us {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "dancing script";
+  font-weight: 400;
+  color: #f0f8ffe0;
+}
+
+.about-header {
+  font-family: "instrumental serif";
+  text-transform: capitalize;
+  padding: 13px 5px;
+  color: #f0f8ffe0;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.about-span {
+  font-family: "Lobster two";
+  color: #6a94e2;
+}
+
+.about-p {
+  font-family: "playfair display";
+  font-weight: 400;
+  color: #f0f8ffe0;
+  text-transform: capitalize;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.8;
+}
+
+.about-servs {
+  margin: 25px 0;
+}
+
+.about-butt {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: 4rem;
+}
+
+.stat-card {
+  background: #0d0000;
+  padding: 2.5rem 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s;
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #f00303e4;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.stat-card:hover {
+  background: #130000;
+}
+
+.stat-card:hover::before {
+  transform: scaleX(1);
+}
+
+.stat-card-num {
+  font-family: "agu display";
+  font-size: 3rem;
+  color: #f00303e4;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}
+
+.stat-card-label {
+  font-family: "playfair display";
+  font-size: 13.5px;
+  color: rgba(240, 248, 255, 0.6);
+  line-height: 1.6;
+}
+
+.stat-card-divider {
+  width: 32px;
+  height: 2px;
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 1024px) {
+  .about-butt {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .about-butt {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .stat-card {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .stat-card-num {
+    font-size: 2.2rem;
+  }
+}
+
+/* ── Cards ── */
+/* */
+/* 
+.card .content {
+  border-radius: 5px;
+  width: 186px;
+  height: 250px;
+  z-index: 1;
+  padding: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content::before {
+  opacity: 0;
+  transition: opacity 300ms;
+  content: " ";
+  display: block;
+  background: white;
+  width: 5px;
+  height: 50px;
+  position: absolute;
+  filter: blur(50px);
+  overflow: hidden;
+}
+
+.card:hover .content::before {
+  opacity: 1;
+}
+
+.card::before {
+  opacity: 0;
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 360px;
+  background: linear-gradient(#ff2288, #387ef0);
+  transition: opacity 300ms;
+  animation: rotation_9018 8000ms infinite linear;
+  animation-play-state: paused;
+}
+
+.card:hover::before {
+  opacity: 1;
+  animation-play-state: running;
+}
+
+.card::after {
+  position: absolute;
+  content: " ";
+  display: block;
+  width: 250px;
+  height: 360px;
+  background: #17171733;
+  backdrop-filter: blur(50px);
+}
+
+@keyframes rotation_9018 {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} */
+
+.about-buttons {
+  padding: 5px;
+  border-radius: 22px;
+  width: 100%;
+  height: 10em;
+  margin: 5px;
+}
+
+.about-buttons-head {
+  font-size: 2.5em;
+  color: #ebebc6;
+  font-family: "agu display";
+}
+
+.about-buttons-p {
+  font-family: "playfair display";
+  color: #f7f7f8;
+  text-transform: capitalize;
+  margin-top: 1em;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* ── Animated button ── */
+.animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 36px;
+  border: 4px solid;
+  border-color: transparent;
+  font-family: "lobster two";
+  font-size: 16px;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #f6f7f4;
+  box-shadow: 0 0 0 2px rgb(232, 233, 230);
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+  position: absolute;
+  width: 24px;
+  fill: #2fd9ff;
+  z-index: 9;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 { right: 16px; }
+.animated-button .arr-2 { left: -25%; }
+
+.animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #2fd9ff;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+  position: relative;
+  z-index: 1;
+  transform: translateX(-12px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: #212121;
+  border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 { right: -25%; }
+.animated-button:hover .arr-2 { left: 16px; }
+.animated-button:hover .text { transform: translateX(12px); }
+.animated-button:hover svg { fill: #212121; }
+.animated-button:active { scale: 0.95; box-shadow: 0 0 0 4px greenyellow; }
+.animated-button:hover .circle { width: 220px; height: 220px; opacity: 1; }
+
+/* ── Partners ── */
+.partner {
+  margin-top: 2em;
+  margin-bottom: 3rem;
+}
+
+.partner-head {
+  font-family: "instrumental serif";
+  text-transform: capitalize;
+  padding: 13px 5px;
+  color: #f0f8ffe0;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+/* ── Why choose ── */
+.why-choos {
+  position: relative;
+  padding: 5rem 3rem;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.why-choos-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('src/assets/chandler-cruttenden-bPUvUVxPzGE-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.why-choos-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 0, 0, 0.75);
+  z-index: 1;
+}
+
+.why-choos-content {
+  position: relative;
+  z-index: 2;
+}
+
+.cho {
+  font-family: "instrumental serif";
+  text-transform: capitalize;
+  padding: 13px 5px;
+  color: #f0f8ffe0;
+  font-weight: 200;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.cho-p {
+  font-family: "playfair display";
+  font-weight: 400;
+  color: #f0f8ffe0;
+  text-transform: capitalize;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+.cho-butts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 1.5rem;
+}
+
+.cho-button {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 20px;
+  border-radius: 16px;
+  width: 100%;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.cho-button:hover {
+  border-color: rgba(240, 3, 3, 0.5);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.cho-butt-head {
+  font-family: "agu display";
+  font-size: 1.1rem;
+  color: #ebebc6;
+  margin-bottom: 0.5rem;
+}
+
+.cho-butt-p {
+  font-family: "playfair display";
+  font-weight: 400;
+  color: #f0f8ffe0;
+  font-size: 13.5px;
+  line-height: 1.7;
+}
+
+
+/* ── Tablet ── */
+@media (max-width: 1024px) {
+  .about-container {
+    padding: 3rem 2.5rem;
+  }
+
+  .about-grid {
+    gap: 2rem;
+  }
+
+  .about-header {
+    font-size: 1.7rem;
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 2rem 1.25rem;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .about-header {
+    font-size: 1.5rem;
+  }
+
+  .about-butt {
+    gap: 8px;
+  }
+
+  .card {
+    width: 160px;
+    height: 220px;
+  }
+
+  .card .content {
+    width: 156px;
+    height: 216px;
+  }
+
+  .about-buttons-head {
+    font-size: 2em;
+  }
+
+  .about-buttons-p {
+    font-size: 12px;
+  }
+   .why-choos {
+    padding: 3rem 1.25rem;
+  }
+
+  .cho-butts {
+    grid-template-columns: 1fr;
+  }
+
+  .partner-head,
+  .cho {
+    font-size: 1.5rem;
+  }
+
+  .animated-button {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+  
+  .why-choos-bg {
+    background-attachment: scroll;
+  }
+
+  
+}
+
+/* ── Small mobile ── */
+@media (max-width: 480px) {
+  .about-butt {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 85vw;
+    height: 200px;
+  }
+
+  .card .content {
+    width: calc(85vw - 4px);
+    height: 196px;
+  }
+}

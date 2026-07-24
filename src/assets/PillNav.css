@@ -1,0 +1,30 @@
+.pill-nav {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 999px;
+}
+
+.pill-nav__btn {
+  padding: 6px 16px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  background: transparent;
+  color: #666;
+  transition: all 0.15s ease;
+}
+
+.pill-nav__btn--active {
+  background: #fff;
+  color: #0a0a0a;
+  font-weight: 500;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.pill-nav__btn:hover:not(.pill-nav__btn--active) {
+  color: #0a0a0a;
+}

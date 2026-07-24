@@ -1,0 +1,244 @@
+.services-section {
+  background: #080000;
+}
+
+.services-header {
+  padding: 1rem 2rem ;
+}
+
+.servs {
+  color: #6a94e2;
+} 
+
+
+.services-title {
+  font-family: "Lobster two";
+  font-size: 3.5rem;
+  font-weight: 200;
+  color: #f0f8ffe0;
+  text-align: center;
+}
+
+/* ── service item ── */
+.service-item {
+  position: relative;
+  width: 100%;
+  height: 520px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* background image */
+.service-item-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.8s ease;
+}
+
+.service-item:hover .service-item-bg {
+  transform: scale(1.05);
+}
+
+/* dark overlay */
+.service-item-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(8, 0, 0, 0.92) 0%,
+    rgba(8, 0, 0, 0.75) 40%,
+    rgba(8, 0, 0, 0.2) 100%
+  );
+  transition: background 0.4s ease;
+}
+
+.service-item:hover .service-item-overlay {
+  background: linear-gradient(
+    to right,
+    rgba(8, 0, 0, 0.95) 0%,
+    rgba(8, 0, 0, 0.8) 40%,
+    rgba(8, 0, 0, 0.35) 100%
+  );
+}
+
+/* red left accent line */
+.service-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  /* background: #f00303e4; */
+  z-index: 3;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.4s ease;
+}
+
+.service-item:hover::before {
+  transform: scaleY(1);
+}
+
+/* content */
+.service-item-content {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.service-item-inner {
+  max-width: 600px;
+}
+
+
+.service-item-name {
+  font-family: "agu display";
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  color: #f0f8ffe0;
+  line-height: 1.05;
+  margin-bottom: 1.25rem;
+  transition: color 0.3s;
+}
+
+.service-item:hover .service-item-name {
+  color: #fff;
+}
+
+.service-item-desc {
+  font-family: "playfair display";
+  font-size: 15px;
+  color: rgba(240, 248, 255, 0.6);
+  line-height: 1.8;
+  max-width: 480px;
+  margin-bottom: 2rem;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.4s ease 0.1s, transform 0.4s ease 0.1s;
+}
+
+.service-item:hover .service-item-desc {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.service-item-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "lobster two";
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #6a94e2;
+  text-decoration: none;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.4s ease 0.2s, transform 0.4s ease 0.2s, gap 0.2s;
+}
+
+.service-item:hover .service-item-cta {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.service-item-cta:hover {
+  gap: 14px;
+}
+
+/* big ghost number */
+.service-item-ghost {
+  position: absolute;
+  right: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "agu display";
+  font-size: clamp(8rem, 15vw, 14rem);
+  color: rgba(255, 255, 255, 0.03);
+  line-height: 1;
+  z-index: 1;
+  pointer-events: none;
+  transition: color 0.4s;
+}
+
+.service-item:hover .service-item-ghost {
+  color: rgba(240, 3, 3, 0.06);
+}
+
+/* divider between items */
+.service-item-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* ── responsive ── */
+@media (max-width: 1024px) {
+  .services-header {
+    padding: 4rem 2.5rem 2.5rem;
+  }
+
+  .service-item {
+    height: 420px;
+  }
+
+  .service-item-content {
+    padding: 0 2.5rem;
+  }
+
+  .service-item-ghost {
+    right: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-header {
+    padding: 3rem 1.25rem 2rem;
+  }
+
+  .services-title {
+    font-size: 1.8rem;
+  }
+
+  .service-item {
+    height: 360px;
+  }
+
+  .service-item-content {
+    padding: 0 1.5rem;
+  }
+
+  .service-item-desc {
+    font-size: 13px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .service-item-cta {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .service-item-ghost {
+    display: none;
+  }
+
+  .service-item-name {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-item {
+    height: 300px;
+  }
+
+  .service-item-name {
+    font-size: 1.6rem;
+  }
+}

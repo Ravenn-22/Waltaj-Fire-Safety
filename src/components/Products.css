@@ -1,0 +1,180 @@
+.products-section {
+  background: #1d3557;
+  padding: 2rem 4rem;
+}
+
+
+.products-header {
+  font-family: "instrumental serif";
+  font-size: 2.5rem;
+  font-weight: 200;
+  color: #f0f8ffe0;
+  margin-bottom: 0.5rem;
+}
+
+.products-subheader {
+  font-family: "playfair display";
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 2.5rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.product-card {
+  background: #112034;
+  border: 1px solid rgba(4, 37, 53, 0.25);;
+  overflow: hidden;
+  position: relative;
+  transition: border-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  border-color: rgba(15, 17, 17, 0.25);;
+  transform: translateY(-4px);
+}
+
+.product-card-image {
+  height: 220px;
+  background: transparent;
+  display: block;
+  position: relative; 
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+.product-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+  position: relative;
+  display: block;
+  z-index: 2;
+}
+
+.product-card:hover .product-card-image img {
+  transform: scale(1.05);
+}
+
+.product-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 12px;
+}
+
+.product-placeholder-icon {
+  font-size: 4rem;
+  /* opacity: 0.3; */
+}
+
+.product-placeholder-text {
+  font-family: "agu display";
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(240, 3, 3, 0.4);
+}
+
+.product-card-content {
+  padding: 1.5rem;
+}
+
+.product-card-name {
+  font-family: "agu display";
+  font-size: 1.2rem;
+  color: #f0f8ffe0;
+  margin-bottom: 0.5rem;
+}
+
+.product-card-desc {
+  font-family: "playfair display";
+  font-size: 13px;
+  color: #dbdbdb;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.product-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.product-card-tag {
+  font-family: "Playfair Display";
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6a94e2;
+  background: rgba(3, 110, 240, 0.08);
+  border: 1px solid rgba(3, 114, 240, 0.2);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.product-card-cta {
+  font-family: "playfair display";
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(244, 245, 247, 0.5);
+  text-decoration: none;
+  transition: color 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1px solid #f7f2f2;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.product-card-cta:hover {
+  color: #d0dee9e4;
+}
+
+@media (max-width: 1024px) {
+  .products-section {
+    padding: 4rem 2.5rem;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .products-section {
+    padding: 3rem 1.25rem;
+  }
+
+  .products-header {
+    font-size: 1.8rem;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .product-card-image {
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+}

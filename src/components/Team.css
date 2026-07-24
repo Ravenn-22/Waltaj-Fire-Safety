@@ -1,0 +1,312 @@
+.team-section {
+  background: #f5f0f0;
+  padding: 1rem 4rem;
+  margin-top: -3em;
+}
+
+
+
+.team-header {
+  font-family: "instrumental serif";
+  font-size: 2.5rem;
+  font-weight: 200;
+  color: #0d0000;
+  margin-bottom: 0.5rem;
+}
+
+.team-subheader {
+  font-family: "playfair display";
+  font-size: 14px;
+  color: #555;
+  margin-bottom: .5rem;
+}
+
+.team-divider {
+  width: 48px;
+  height: 3px;
+  background: #f00303e4;
+  margin-bottom: 1.5rem;
+}
+
+/* ── Founder card ── */
+.team-founder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+
+}
+
+.team-founder-image {
+  position: relative;
+  height: 580px;
+  overflow: hidden;
+  background: #d0c8c8;
+}
+
+.team-founder-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top ;
+  filter: grayscale(20%);
+  transition: transform 0.5s ease;
+}
+
+.team-founder:hover .team-founder-image img {
+  transform: scale(1.03);
+}
+
+.team-founder-image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c8bfbf;
+  font-family: "agu display";
+  font-size: 5rem;
+  color: rgba(240, 3, 3, 0.2);
+  letter-spacing: 4px;
+}
+
+.team-founder-content {
+  background: #0d0000;
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.team-founder-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: #141313e4;
+}
+
+.team-founder-tag {
+  font-family: "dancing script";
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #e0dadae4;
+  margin-bottom: 1rem;
+}
+
+.team-founder-name {
+  font-family: "Lobster two";
+  font-size: 2.5rem;
+  color: #f5f0f0;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+.team-founder-role {
+  font-family: "lobster two";
+  font-size: 16px;
+  color: rgba(245, 240, 240, 0.5);
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.team-founder-bio {
+  font-family: "playfair display";
+  font-size: 14px;
+  color: rgba(245, 240, 240, 0.7);
+  line-height: 1.9;
+  margin-bottom: 2rem;
+}
+
+.team-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.team-badge {
+  font-family: "playfair display";
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #d0dee9e4;
+  background: rgba(3, 161, 240, 0.1);
+  border: 1px solid rgba(3, 193, 240, 0.25);
+  padding: 5px 12px;
+  border-radius: 4px;
+}
+
+/* ── Engineer cards ── */
+.team-engineers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.team-engineer-card {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  position: relative;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.team-engineer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+.team-engineer-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  /* background: #f00303e4; */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.team-engineer-card:hover::after {
+  transform: scaleX(1);
+}
+
+.team-engineer-image {
+  height: 280px;
+  overflow: hidden;
+  background: #d0c8c8;
+  position: relative;
+}
+
+.team-engineer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  filter: grayscale(20%);
+  transition: transform 0.5s ease;
+}
+
+.team-engineer-card:hover .team-engineer-image img {
+  transform: scale(1.04);
+}
+
+.team-engineer-image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c8bfbf;
+  font-family: "agu display";
+  font-size: 3.5rem;
+  color: rgba(240, 3, 3, 0.2);
+}
+
+.team-engineer-content {
+  padding: 1.5rem;
+}
+
+.team-engineer-name {
+  font-family: "Lobster two";
+  font-size: 1.3rem;
+  color: #0d0000;
+  margin-bottom: 4px;
+}
+
+.team-engineer-role {
+  font-family: "playfair display";
+  font-size: 13px;
+  color: #888;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.team-engineer-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.team-engineer-badge {
+  font-family: "playfair display";
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+    color: #086ebbe4;
+  background: rgba(32, 68, 87, 0.1);
+  border: 1px solid rgba(3, 193, 240, 0.25);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 1024px) {
+  .team-section {
+    padding: 4rem 2.5rem;
+  }
+
+  .team-founder-name {
+    font-size: 2rem;
+  }
+
+  .team-founder-content {
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-section {
+    padding: 3rem 1.25rem;
+  }
+
+  .team-founder {
+    grid-template-columns: 1fr;
+  }
+
+  .team-founder-image {
+    height: 500px;
+  }
+
+  .team-founder-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .team-founder-name {
+    font-size: 1.8rem;
+  }
+
+  .team-engineers {
+    grid-template-columns: 1fr;
+  }
+
+  .team-header {
+    font-size: 1.8rem;
+  }
+  .team-engineer-image{
+    height: 480px;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-engineers {
+    grid-template-columns: 1fr ;
+  }
+
+  .team-engineer-image {
+    height: 200px;
+  }
+
+  .team-engineer-name {
+    font-size: 1rem;
+  }
+}
