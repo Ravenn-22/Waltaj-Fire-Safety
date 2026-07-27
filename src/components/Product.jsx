@@ -62,7 +62,7 @@ export default function Products() {
               <div className="product-card-footer">
                 <span className="product-card-tag">{product.tag}</span>
                 <a href="#Contact" className="product-card-cta">
-                  Request Quote →
+                  Request Quote 
                 </a>
               </div>
             </div>

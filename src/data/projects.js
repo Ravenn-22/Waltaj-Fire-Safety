@@ -34,15 +34,22 @@ export const PROJECTS = [
       },
       {
         type: "image",
-        src: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1200&auto=format&fit=crop",
-        alt: "Corridor with new detector installed on ceiling",
+        src: "/images/first-bnk-alarm.jpeg",
+        alt: "New addressable fire alarm after installation",
       },
-    ],
-    extra: [
       {
         type: "image",
-        src: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1200&auto=format&fit=crop",
-        alt: "Detector installed on office ceiling",
+        src: "/images/first-bnk-wa.jpeg",
+        alt: "Waltaj Maintenance Card",
+      },
+      
+    ],
+    extra: [
+      
+      {
+        type: "image",
+        src: "/images/first-bnk.jpeg",
+        alt: "Suppression system installation",
       },
       {
         type: "video",
@@ -104,6 +111,11 @@ export const PROJECTS = [
       src: "https://images.unsplash.com/photo-1581094487457-53e834445958?q=80&w=687&auto=format&fit=crop",
       alt: "Warehouse aisle after extinguisher placement",
       },
+      {
+      type: "image",
+      src: "/images/Superrr.jpeg",
+      alt: "Warehouse aisle after extinguisher placement",
+      },
     ],
     extra: [],
   },
@@ -128,12 +140,24 @@ export const PROJECTS = [
       src: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=2670&auto=format&fit=crop",
       alt: "Warehouse after compliance certification",
       },
+      {
+      type: "image",
+      src: "/images/afrabb.jpeg",
+      alt: "Warehouse after compliance certification",
+      },
     ],
     extra: [
       {
-        type: "image",
-        src: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
-        alt: "Certification signage installed on site",
+        type: "video",
+        src: "/images/afrab-fire.mp4",
+        alt: "Pickup of fire extinguisher for servicing",
+      },
+      {
+        type: "video",
+        src: "/images/afrabb-v.mp4",
+        // poster:
+        //   "https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1200&auto=format&fit=crop",
+        alt: "Walkthrough of the production department",
       },
     ],
   },

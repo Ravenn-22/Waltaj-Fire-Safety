@@ -15,8 +15,7 @@ const partners = [
   "/images/Super-eng.jpeg",
   "/images/Sylma.jpeg",
   "/images/Caring.jpeg",
-  "http://www.iita.org/wp-content/themes/iita/images/IITA-TAA-smallnew.png",
-  "http://www.towerplc.com/images/logo.jpg"
+  "http://www.iita.org/wp-content/themes/iita/images/IITA-TAA-smallnew.png"
 ];
 
 export default function PartnersMarquee() {

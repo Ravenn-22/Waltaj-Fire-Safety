@@ -95,7 +95,7 @@
   position: relative;
   max-width: 780px;
   margin: 0 auto 2.5rem;
-  background: #111;
+  background: #0858f879;
   border: 1px solid rgba(3, 78, 240, 0.2);
   border-radius: 20px;
   padding: 3rem;
@@ -180,7 +180,7 @@
 }
 
 .testimonial-card {
-  background: #111;
+  background: #04266a;
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 16px;
   padding: 1.5rem;
