@@ -145,6 +145,22 @@
 /* ── Mobile drawer ── */
 .nav-mobile {
   display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
+  bottom: 0;          /* add this — stretches to bottom of screen */
+  list-style: none;
+  background: rgba(10, 10, 10, 0.96);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 1.5rem 1rem;
+  z-index: 99;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  overflow-y: auto;   /* add this — menu itself scrolls */
 }
 .nav-dropdown-wrapper {
   position: relative;

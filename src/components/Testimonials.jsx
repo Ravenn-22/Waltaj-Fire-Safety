@@ -51,7 +51,7 @@ function FeaturedTestimonial({ item }) {
   return (
     <div className="testimonial-featured">
       <span className="testimonial-quote-mark" aria-hidden="true">
-        "
+        
       </span>
       <p className="testimonial-featured-quote">{item.quote}</p>
       <div className="testimonial-featured-attribution">
