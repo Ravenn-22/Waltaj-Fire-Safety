@@ -130,7 +130,7 @@ export const PROJECTS = [
     before: [
       {
       type: "image",
-      src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200&auto=format&fit=crop",
+      src: "/images/adrian-sulyok-sczNLg6rrhQ-unsplash.jpg",
       alt: "Warehouse before compliance work",
       },
     ],

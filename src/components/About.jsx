@@ -14,7 +14,7 @@ function About() {
             <span className="about-span">Properties</span>
           </h1>
           <p className="about-p">
-            Waltaj Safety Services Limited is a corporation, saddled with the
+            Waltaj Nigeria Limited is a corporation, saddled with the
             objective of providing fire safety equipments and apparatus to
             facilities around the World, which would drastically reduce the risk
             of fire disasters. We ensure fire safety compliance for all our
