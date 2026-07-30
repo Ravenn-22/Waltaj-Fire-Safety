@@ -187,7 +187,7 @@ export const PROJECTS = [
   },
   {
     id: "06",
-    title: "Port Harcourt Refinery",
+    title: "International Institute of Tropical Agriculture",
     category: "Suppression Systems",
     tag: "Industrial",
     desc: "High-pressure foam suppression system designed for industrial fire risk in a live refinery environment.",

@@ -16,7 +16,7 @@ const engineers = [
     initials: "TO",
     image: "/images/jay-walt.jpeg",
   },
-  {
+  { 
     name: "Engr. Adedeji Adeniyi",
     role: "Alarm & Detection Specialist",
     badges: ["Addressable Systems", "Lagos State Licensed"],
@@ -43,7 +43,7 @@ export default function Team() {
       {/* founder */}
       <div className="team-founder">
         <div className="team-founder-image">
-         <img src="/images/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="" />
+         <img src="/images/walt-pops.jpeg" alt="Founder-image" />
           <div className="team-founder-image-placeholder">
             {founder.initials}
           </div>

@@ -15,7 +15,7 @@ const partners = [
   "/images/Super-eng.jpeg",
   "/images/Sylma.jpeg",
   "/images/Caring.jpeg",
-  "http://www.iita.org/wp-content/themes/iita/images/IITA-TAA-smallnew.png"
+  "/images/IITA.jpg"
 ];
 
 export default function PartnersMarquee() {

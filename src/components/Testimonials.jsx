@@ -1,13 +1,9 @@
 import "./Testimonials.css"
-
-// PLACEHOLDER CONTENT — swap in real client quotes before launch.
-// The first item with featured: true is shown large up top; the rest
-// render in the supporting grid below.
 const TESTIMONIALS = [
   {
     quote:
-      "They handled our fire alarm upgrade across all 12 floors without disrupting daily operations, and we passed Lagos State Fire Service inspection on the first attempt. The whole process was far smoother than we expected for a building our size.",
-    name: "Adaeze Okonkwo",
+      "We were highly impressed by the professionalism, expertise, and efficiency demonstrated throughout the project. Their team delivered reliable fire safety solutions while ensuring full compliance with industry standards. we appreciare their commitent to quality and would confidently recommend their services to any organization seeeking a trusted fire safety partner",
+    name: "Mr Ademola Oyebanj",
     role: "Facilities Manager",
     company: "First Bank Head Office",
     tag: "Alarm Systems",
@@ -16,7 +12,7 @@ const TESTIMONIALS = [
   {
     quote:
       "Professional from the first site visit to final sign-off. They worked around our guests without a single disruption to hotel operations.",
-    name: "Tunde Bakare",
+    name: "Mrs Tijani Yetunde",
     role: "Operations Manager",
     company: "Blackwoods Bar and Hotel",
     tag: "Suppression Systems",
@@ -24,7 +20,7 @@ const TESTIMONIALS = [
   {
     quote:
       "Their risk assessment caught gaps we didn't know we had across the warehouse. Genuinely thorough, not just a checkbox exercise.",
-    name: "Ifeoma Chukwu",
+    name: "Mr Okafor Sunday",
     role: "Site Supervisor",
     company: "Super Warehouse Facility",
     tag: "Risk Assessment",
@@ -32,7 +28,7 @@ const TESTIMONIALS = [
   {
     quote:
       "We've now used them on two separate facilities. Consistent quality both times, and they're easy to reach when something needs attention.",
-    name: "Emeka Nwosu",
+    name: "Mrs Eguabor Barnabas",
     role: "Plant Manager",
     company: "AAVA Beverage Facility",
     tag: "Fire Extinguisher Supply",
@@ -40,10 +36,18 @@ const TESTIMONIALS = [
   {
     quote:
       "They secured our compliance certification faster than we'd budgeted for, and explained every requirement in plain terms along the way.",
-    name: "Grace Adeyemi",
+    name: "Mr Emmanuel",
     role: "Compliance Officer",
     company: "AFRAB Medical Warehouse",
     tag: "Compliance Consulting",
+  },
+  {
+    quote:
+      "They handled our fire suppression upgrade across all floors without disrupting daily operations, and we passed Oyo State Fire Service inspection on the first attempt. The whole process was far smoother than we expected for a building our size.",
+    name: "Mr Damilare",
+    role: "Operations Manager",
+    company: "International Institute of Tropical Agriculture ",
+    tag: "Suppression Systems",
   },
 ]
 
