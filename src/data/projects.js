@@ -22,6 +22,11 @@ export const PROJECTS = [
     after: [
       {
         type: "image",
+        src: "https://images.unsplash.com/photo-1637920952213-3467ee3df490?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        alt: "New addressable fire alarm panel after installation",
+      },
+      {
+        type: "image",
         src: "https://images.unsplash.com/photo-1595045720389-acca18600f4e?q=80&w=719&auto=format&fit=crop",
         alt: "New addressable fire alarm panel after installation",
       },
@@ -74,6 +79,11 @@ export const PROJECTS = [
       src: "https://images.unsplash.com/photo-1639600993675-2281b2c939f0?q=80&w=1470&auto=format&fit=crop",
       alt: "Guest room ceiling after sprinkler installation",
       },
+      {
+      type: "image",
+      src: "https://images.unsplash.com/photo-1650551182991-b07558247564?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      alt: "Suppression system",
+      },
     ],
     extra: [
       {
@@ -90,11 +100,11 @@ export const PROJECTS = [
     tag: "Industrial",
     desc: "Successfully supplied and delivered high-quality fire extinguishers to Super Engineering Factory as part of their workplace fire safety enhancement initiative",
     cover:
-      "https://images.unsplash.com/photo-1581094487457-53e834445958?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1629875718908-37e20d556d16?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     before: [
       {
       type: "image",
-      src: "https://images.unsplash.com/photo-1601058268499-e52e3accef5c?q=80&w=1200&auto=format&fit=crop",
+      src: "https://images.unsplash.com/photo-1766650186677-947f1740a94d?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       alt: "Warehouse aisle before risk assessment upgrades",
       },
     ],
@@ -103,6 +113,11 @@ export const PROJECTS = [
       type: "image",
       src: "https://images.unsplash.com/photo-1581094487457-53e834445958?q=80&w=687&auto=format&fit=crop",
       alt: "Warehouse aisle after extinguisher placement",
+      },
+      {
+      type: "image",
+      src: "https://images.unsplash.com/photo-1738782582520-d1be2a9d7bca?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      alt: "fire extinguisher placement",
       },
       {
       type: "image",
@@ -131,12 +146,17 @@ export const PROJECTS = [
       {
       type: "image",
       src: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=2670&auto=format&fit=crop",
-      alt: "Warehouse after compliance certification",
+      alt: "fire extinguisher",
       },
       {
       type: "image",
       src: "/images/afrabb.jpeg",
-      alt: "Warehouse after compliance certification",
+      alt: "fire extinguisher",
+      },
+      {
+      type: "image",
+      src: "https://images.unsplash.com/photo-1604656329788-e66ad1dfe01b?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      alt: "Warehouse fire extinguisher",
       },
     ],
     extra: [
@@ -180,6 +200,16 @@ export const PROJECTS = [
       src: "/images/AAva-factt.jpeg",
       alt: "Production floor after extinguisher installation",
       },
+      {
+      type: "image",
+      src: "https://images.unsplash.com/photo-1603815210107-8b9478ca8cbc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      alt: "Production floor after extinguisher installation",
+      },
+      {
+      type: "image",
+      src: "https://images.unsplash.com/photo-1738305562271-8771c76bbd76?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      alt: "Production floor after extinguisher installation",
+      },
     ],
     extra: [
       {
@@ -200,7 +230,7 @@ export const PROJECTS = [
     before: [
       {
       type: "image",
-      src: "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?q=80&w=1200&auto=format&fit=crop",
+      src: "https://images.unsplash.com/photo-1720036236694-d0a231c52563?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       alt: "Refinery site before foam suppression install",
       },
     ],
@@ -210,15 +240,19 @@ export const PROJECTS = [
       src: "https://images.unsplash.com/photo-1778245750094-64e23df60340?q=80&w=686&auto=format&fit=crop",
       alt: "Refinery site after foam suppression install",
       },
+      {
+      type: "image",
+      src: "https://images.unsplash.com/photo-1690973692388-239878450c7b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      alt: "foam suppression install",
+      },
+      {
+      type: "image",
+      src: "https://images.unsplash.com/photo-1684303044426-041adadf05e9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      alt: "Rfoam suppression ",
+      },
     ],
     extra: [
-      {
-        type: "video",
-        src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-        poster:
-          "https://images.unsplash.com/photo-1778245750094-64e23df60340?q=80&w=686&auto=format&fit=crop",
-        alt: "Suppression system test walkthrough",
-      },
+     
     ],
   },
 ]
