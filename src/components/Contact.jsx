@@ -239,6 +239,29 @@ export default function Contact() {
         </div>
 
       </div>
+
+      <div
+        style={{
+          textAlign: "center",
+          padding: "2px 8px",
+          fontSize: "13px",
+          fontFamily: "lobster two",
+          color: "#888",
+          borderTop: "1px solid rgba(0,0,0,0.08)",
+          marginTop: "40px",
+        }}
+      >
+        © {new Date().getFullYear()} Waltaj Nigeria Limited. All rights reserved. Built by{" "}
+        <a
+          href="https://temitayo-shonaike.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "inherit", textDecoration: "underline" }}
+        >
+          Raven
+        </a>
+        .
+      </div>
     </section>
   );
 }
