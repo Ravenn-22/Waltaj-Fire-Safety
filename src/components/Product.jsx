@@ -4,19 +4,19 @@ const products = [
   {
     name: "Fire Extinguishers",
     desc: "Portable and wheeled extinguishers for all classes of fire — ABC dry powder, CO2, foam, and wet chemical types available.",
-    icon: <img src="/images/ploegerson-K_MhX-YKuCg-unsplash.jpg" alt="" />,
+    icon: <img src="https://images.unsplash.com/photo-1595306394931-b35768661692?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D" alt="" />,
     tag: "Supply & Service",
   },
   {
     name: "FM-200 Systems",
     desc: "Clean agent gaseous suppression systems ideal for server rooms, control rooms, and areas where water damage is unacceptable.",
-    icon: <img src="/images/albert-stoynov-WMyhL1ya_NM-unsplash.jpg" alt="" srcset="" />,
+    icon: <img src="https://images.unsplash.com/photo-1690973692388-239878450c7b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="" />,
     tag: "Supply & Install",
   },
   {
     name: "Alarm Panels",
     desc: "Addressable and conventional fire alarm control panels for buildings of all sizes — fully programmable and expandable.",
-    icon: <img src="/images/chris-porter--At4vx7KbAI-unsplash.jpg" alt="" srcset="" />,
+    icon: <img src="/images/fire-panel.png" alt="" srcset="" />,
     tag: "Supply & Install",
   },
   {
@@ -34,7 +34,7 @@ const products = [
   {
     name: "Sprinkler Heads",
     desc: "Pendant, upright, and concealed sprinkler heads for automatic suppression systems — all pressure-tested and certified.",
-    icon: <img src="/images/aleksey-shkitenkov-YWRDfkedXvo-unsplash.jpg" alt="" srcset="" />,
+    icon: <img src="/images/sprinkler.png" alt="" srcset="" />,
     tag: "Supply & Install",
   },
 ];
