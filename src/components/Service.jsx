@@ -86,7 +86,7 @@ export default function Services() {
                 <h3 className="service-item-name">{service.name}</h3>
                 <p className="service-item-desc">{service.desc}</p>
                 <a href="#Contact" className="service-item-cta">
-                  {service.cta} →
+                  {service.cta} 
                 </a>
               </div>
             </div>

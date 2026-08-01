@@ -28,7 +28,7 @@ const engineers = [
     role: "Compliance & Risk Consultant",
     badges: ["CFPS Certified", "Risk Assessment"],
     initials: "TT",
-    image: "",
+    image: "/images/temitayoooo.jpeg",
   },
 ];
 

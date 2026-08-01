@@ -11,7 +11,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "Professional from the first site visit to final sign-off. They worked around our guests without a single disruption to hotel operations.",
+      "From the initial site assessment to project completion, the team demonstrated exceptional professionalism and technical expertise. Every aspect of the work was carried out efficiently with minimal disruption to our daily operations, delivering a fire protection solution that met our expectations.",
     name: "Mrs Tijani Yetunde",
     role: "Operations Manager",
     company: "Blackwoods Bar and Hotel",
@@ -19,27 +19,27 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "Their risk assessment caught gaps we didn't know we had across the warehouse. Genuinely thorough, not just a checkbox exercise.",
+      "Our experience with the team was outstanding from start to finish. They supplied high-quality fire extinguishers that met our facility's safety requirements and ensured the entire process was completed efficiently and professionally.",
     name: "Mr Okafor Sunday",
     role: "Site Supervisor",
     company: "Super Warehouse Facility",
-    tag: "Risk Assessment",
+    tag: "Fire Extinguisher Suppy",
   },
   {
     quote:
-      "We've now used them on two separate facilities. Consistent quality both times, and they're easy to reach when something needs attention.",
+      "The team carried out a thorough fire risk assessment of our facility and promptly identified fire extinguishers that required repair or replacement. Their recommendations were practical, the resupply process was efficient, and the quality of service was exceptional. ",
     name: "Mrs Eguabor Barnabas",
     role: "Plant Manager",
     company: "AAVA Beverage Facility",
-    tag: "Fire Extinguisher Supply",
+    tag: "Fire Risk Assessment, Extinguisher Inspection & Resupply",
   },
   {
     quote:
-      "They secured our compliance certification faster than we'd budgeted for, and explained every requirement in plain terms along the way.",
+      "We were impressed by the quality of the fire extinguishers supplied and the professionalism demonstrated throughout the engagement. The team provided solutions tailored to our operational needs, ensuring compliance with fire safety standards while delivering excellent service.",
     name: "Mr Emmanuel",
-    role: "Compliance Officer",
+    role: "Operations Manager",
     company: "AFRAB Medical Warehouse",
-    tag: "Compliance Consulting",
+    tag: "Fire Extinguisher Suppy",
   },
   {
     quote:
