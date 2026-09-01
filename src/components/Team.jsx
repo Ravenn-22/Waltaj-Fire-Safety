@@ -11,14 +11,14 @@ const founder = {
 const engineers = [
   {
     name: "Engr. Tijani Olajuwon",
-    role: "Lead Fire Systems Engineer",
+    role: "Head Of Operations",
     badges: ["NFPA Certified", "Suppression Systems"],
     initials: "TO",
     image: "/images/jay-walt.jpeg",
   },
   { 
     name: "Engr. Adedeji Adeniyi",
-    role: "Alarm & Detection Specialist",
+    role: "Lead Fire Systems Engineer",
     badges: ["Addressable Systems", "Lagos State Licensed"],
     initials: "AA",
     image: "",
@@ -28,7 +28,7 @@ const engineers = [
     role: "Compliance & Risk Consultant",
     badges: ["CFPS Certified", "Risk Assessment"],
     initials: "TT",
-    image: "/images/temitayoooo.jpeg",
+    image: "/images/IMG_8417.png",
   },
 ];
 

@@ -258,7 +258,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           style={{ color: "inherit", textDecoration: "underline" }}
         >
-          Raven
+          Temitayo
         </a>
         .
       </div>
