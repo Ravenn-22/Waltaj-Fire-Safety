@@ -21,7 +21,7 @@ const engineers = [
     role: "Lead Fire Systems Engineer",
     badges: ["Addressable Systems", "Lagos State Licensed"],
     initials: "AA",
-    image: "",
+    image: "/images/niyi-waltaj.png",
   },
   {
     name: "Engr. Tijani Temitayo",
