@@ -25,7 +25,7 @@ const engineers = [
   },
   {
     name: "Engr. Tijani Temitayo",
-    role: "Compliance & Risk Consultant",
+    role: "Fire Safety Systems Engineer",
     badges: ["CFPS Certified", "Risk Assessment"],
     initials: "TT",
     image: "/images/IMG_8417.png",
