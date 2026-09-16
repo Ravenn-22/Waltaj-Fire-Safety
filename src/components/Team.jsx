@@ -12,12 +12,12 @@ const engineers = [
   {
     name: "Engr. Tijani Olajuwon",
     role: "Head Of Operations",
-    badges: ["NFPA Certified", "Suppression Systems"],
+    badges: ["NFPA Certified", "Suppression Systems", "IOSH Certified"],
     initials: "TO",
     image: "/images/jay-walt.jpeg",
   },
   { 
-    name: "Engr. Adedeji Adeniyi",
+    name: "Engr. Adenuga Adeniyi",
     role: "Lead Fire Systems Engineer",
     badges: ["Addressable Systems", "Lagos State Licensed"],
     initials: "AA",
