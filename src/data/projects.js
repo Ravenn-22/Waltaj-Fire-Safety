@@ -4,9 +4,9 @@ export const PROJECTS = [
     title: "First Bank Head Office",
     category: "Alarm Systems",
     tag: "Commercial",
-    desc: " Designed and installed a fully addressable fire alarm system across 12 floors, providing comprehensive fire detection and notification coverage for over 800 staff members.",
+    desc: " Designed and installed a fully addressable fire alarm system across all floors, providing comprehensive fire detection and notification coverage for over 800 staff members.",
     cover:
-      "https://images.unsplash.com/photo-1595045720389-acca18600f4e?q=80&w=719&auto=format&fit=crop",
+      "/images/IMG_0522.jpg",
     before: [
       {
         type: "image",
@@ -34,6 +34,16 @@ export const PROJECTS = [
         type: "image",
         src: "/images/first-bnk-alarm.jpeg",
         alt: "New addressable fire alarm after installation",
+      },
+      {
+        type: "image",
+        src: "/images/IMG_0196.jpg",
+        alt: "Fire Extinguisher supply",
+      },
+      {
+        type: "image",
+        src: "/images/IMG_0197.jpg",
+        alt: "Fire Extinguisher Installation ",
       },
       {
         type: "image",
@@ -65,7 +75,7 @@ export const PROJECTS = [
     tag: "Hospitality",
     desc: " Designed and installed a wet pipe sprinkler system throughout all guest rooms and shared areas to provide comprehensive fire protection and ensure compliance with applicable fire safety standards.",
     cover:
-      "https://images.unsplash.com/photo-1639600993675-2281b2c939f0?q=80&w=1470&auto=format&fit=crop",
+      "/images/IMG_0525.jpg",
     before: [
       {
       type: "image",
@@ -82,6 +92,11 @@ export const PROJECTS = [
       {
       type: "image",
       src: "https://images.unsplash.com/photo-1650551182991-b07558247564?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      alt: "Suppression system",
+      },
+      {
+      type: "image",
+      src: "https://images.unsplash.com/photo-1639600993675-2281b2c939f0?q=80&w=1470&auto=format&fit=crop",
       alt: "Suppression system",
       },
     ],
@@ -155,7 +170,7 @@ export const PROJECTS = [
       },
       {
       type: "image",
-      src: "https://images.unsplash.com/photo-1604656329788-e66ad1dfe01b?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "/images/IMG_0194.jpg",
       alt: "Warehouse fire extinguisher",
       },
     ],
@@ -181,7 +196,7 @@ export const PROJECTS = [
     tag: "Industrial",
     desc: "Conducted a comprehensive fire risk assessment across the production facility, identifying fire extinguishers requiring servicing, repair, or replacement.",
     cover:
-      "https://images.unsplash.com/photo-1774256397579-7a915270afd1?q=80&w=1470&auto=format&fit=crop",
+      "/images/IMG_0163.jpg",
     before: [
       {
       type: "image",
@@ -192,12 +207,22 @@ export const PROJECTS = [
     after: [
       {
       type: "image",
-      src: "https://images.unsplash.com/photo-1774256397579-7a915270afd1?q=80&w=1470&auto=format&fit=crop",
+      src: "/images/IMG_0162.jpg",
       alt: "Production floor after extinguisher installation",
       },
       {
       type: "image",
       src: "/images/AAva-factt.jpeg",
+      alt: "Production floor after extinguisher installation",
+      },
+      {
+      type: "image",
+      src: "/images/IMG_0161.jpg",
+      alt: "Production floor after extinguisher installation",
+      },
+      {
+      type: "image",
+      src: "/images/IMG_0160.jpg",
       alt: "Production floor after extinguisher installation",
       },
       {
@@ -216,6 +241,11 @@ export const PROJECTS = [
         type: "video",
         src: "/images/aava-fact.mp4",
         alt: "Pickup of fire extinguisher for servicing",
+      },
+      {
+        type: "video",
+        src: "/images/AAVA-VID.mp4",
+        alt: "Supply of fire extinguisher ",
       },
     ],
   },

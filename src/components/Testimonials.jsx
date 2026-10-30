@@ -3,7 +3,7 @@ const TESTIMONIALS = [
   {
     quote:
       "We were highly impressed by the professionalism, expertise, and efficiency demonstrated throughout the project. Their team delivered reliable fire safety solutions while ensuring full compliance with industry standards. we appreciare their commitent to quality and would confidently recommend their services to any organization seeeking a trusted fire safety partner",
-    name: "Mr Ademola Oyebanj",
+    name: "Mr Ademola Oyebanjo",
     role: "Facilities Manager",
     company: "First Bank Head Office",
     tag: "Alarm Systems",
