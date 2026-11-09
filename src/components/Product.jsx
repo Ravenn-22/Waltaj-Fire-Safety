@@ -32,9 +32,9 @@ const products = [
     tag: "Supply & Install",
   },
   {
-    name: "Sprinkler Heads",
-    desc: "Pendant, upright, and concealed sprinkler heads for automatic suppression systems — all pressure-tested and certified.",
-    icon: <img src="/images/sprinkler.png" alt="" srcset="" />,
+    name: "Hanging Fire Extinguishers",
+    desc: "Automatic hanging fire extinguisher (fireball) that activates on contact with flames, releasing dry powder to suppress the fire with no one present. Ideal for warehouses, storage rooms, electrical rooms and other hard-to-reach or unattended spaces.",
+    icon: <img src="/images/Hang-fire.jpg" alt="" srcset="" />,
     tag: "Supply & Install",
   },
 ];

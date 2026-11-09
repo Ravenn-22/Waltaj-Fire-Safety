@@ -251,34 +251,39 @@ export const PROJECTS = [
   },
   {
     id: "06",
-    title: "International Institute of Tropical Agriculture",
-    category: "Suppression Systems",
+    title: "Pernod Ricard Warehouse",
+    category: "Hanging Fire Extinguishers",
     tag: "Industrial",
-    desc: "Designed and installed a high-pressure foam suppression system, providing advanced fire protection for high-risk operational areas and ensuring reliable, rapid-response fire suppression in accordance with industry safety standards.",
+    desc: "Supply of automatic hanging fire extinguishers to both of Pernod Ricard’s warehouse locations. Mounted overhead, the units activate on contact with flames and release dry powder, adding a layer of protection to large storage areas without taking up floor space",
     cover:
-      "https://images.unsplash.com/photo-1778245750094-64e23df60340?q=80&w=686&auto=format&fit=crop",
+      "/images/pernod5.jpg",
     before: [
       {
       type: "image",
-      src: "https://images.unsplash.com/photo-1720036236694-d0a231c52563?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      alt: "Refinery site before foam suppression install",
+      src: "/images/pernod6.png",
+      alt: "Refinery site before Hanging fire extinguisher install",
       },
     ],
     after: [
       {
       type: "image",
-      src: "https://images.unsplash.com/photo-1778245750094-64e23df60340?q=80&w=686&auto=format&fit=crop",
+      src: "/images/pernod1.jpg",
+      alt: "Refinery site after Hanging fire extinguisher install",
+      },
+      {
+      type: "image",
+      src: "/images/pernod3.jpg",
+      alt: "",
+      },
+       {
+      type: "image",
+      src: "/images/pernod2.jpg",
       alt: "Refinery site after foam suppression install",
       },
       {
       type: "image",
-      src: "https://images.unsplash.com/photo-1690973692388-239878450c7b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      alt: "foam suppression install",
-      },
-      {
-      type: "image",
-      src: "https://images.unsplash.com/photo-1684303044426-041adadf05e9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      alt: "Rfoam suppression ",
+      src: "/images/pernod4.jpg",
+      alt: " ",
       },
     ],
     extra: [
